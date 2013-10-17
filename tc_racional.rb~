@@ -119,5 +119,6 @@ class Test_Fraccion < Test::Unit::TestCase
 		end
 		assert(devolver,"No existe un numerador o un denominador para el racional dado")
 	end
+	
 end
 

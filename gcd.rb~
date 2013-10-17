@@ -2,7 +2,7 @@
 def gcd(n, d)
    n1 = n.abs
    n2 = d.abs
-   if (n2 == 0)   #Por definicion  mcd (a,0)=a
+   if (n2 == 0)   #Por definicion Euclides mcd (a,0)=a
       return n1
    else 
       if (n1 == 0)
